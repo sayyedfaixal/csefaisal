@@ -1,12 +1,37 @@
 import techNews from "../assets/portfolio/techNews.jpg";
+import animalFarm from "../assets/portfolio/animalFarm.jpg";
+import medicareBot from "../assets/portfolio/medicareBot.jpg";
+import mutualFund from "../assets/portfolio/mutualFund.jpg";
 
 const Projects = () => {
   const portfolios = [
     {
       id: 1,
+      projectName : "TechNews",
       src: techNews,
       demo : "https://technewsapi.netlify.app/",
       code : "https://github.com/sayyedfaixal/technewsAPI"
+    },
+    {
+      id: 2,
+      projectName : "Animal Farm",
+      src: animalFarm,
+      demo : "https://technewsapi.netlify.app/",
+      code : "https://github.com/sayyedfaixal/animalfarm"
+    },
+    {
+      id: 3,
+      projectName : "Medicare Bot",
+      src: medicareBot,
+      demo : "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
+      code : "https://github.com/sayyedfaixal/animalfarm"
+    },
+    {
+      id: 4,
+      projectName : "Mutual Fund Bot",
+      src: mutualFund,
+      demo : "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
+      code : "https://github.com/sayyedfaixal/animalfarm"
     },
   ];
 
@@ -26,14 +51,15 @@ const Projects = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-10 sm:px-0 mb-10">
+          {portfolios.map(({ id, src, demo, code, projectName }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 w-96 h-56 hover:scale-105"
               />
+              <h1 className="flex items-center justify-center text-xl font-bold bg-purple-300 text-pink-500">{projectName}</h1>
               <div className="flex items-center justify-center">
                 <button onClick={() => handleClick(demo)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
