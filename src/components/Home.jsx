@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroImage from "../assets/heroImage.png";
 // import { MdKeyboardArrowRight } from "react-icons/md";
 import Typewriter from 'typewriter-effect';
