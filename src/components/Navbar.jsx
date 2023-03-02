@@ -18,8 +18,12 @@ const Navbar = () => {
         },
         {
             id:4,
-            linkText :"Contact"
+            linkText :"Projects"
         },
+        {
+            id:5,
+            linkText : "Contact"
+        }
     ]
   return (
     <div className='flex justify-between items-center w-full h-20 text-white bg-black fixed px-4'>
@@ -35,6 +39,7 @@ const Navbar = () => {
                 </li>
             ))}
         </ul>
+
         {/* This is for the hamburger part for the mobile visibilty */}
         <div onClick={() =>setNavState(!navState)}  className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
             {navState ? <FaTimes size={30} /> : <FaBars size={30} />}

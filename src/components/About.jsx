@@ -60,7 +60,7 @@ const About = () => {
               <TimelineDot variant="outlined" color="warning" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color="#ED6C02">Won Smart India Hackathon 2019 <span className="text-blue-400 underline">#team TechLegionz</span></TimelineContent>
+            <TimelineContent color="#ED6C02">Won Smart India Hackathon 2019 <span className="text-blue-400 underline"><a href="https://twitter.com/iitroorkee/status/1102163586246311936"/>#team TechLegionz</span></TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
