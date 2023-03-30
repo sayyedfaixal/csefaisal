@@ -32,6 +32,17 @@ const About = () => {
           }}>
           <TimelineItem>
             <TimelineOppositeContent color="primary">
+              2023
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" color="primary" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent color ="primary">GATE CSE AIR 4k</TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineOppositeContent color="primary">
               2022
             </TimelineOppositeContent>
             <TimelineSeparator>
