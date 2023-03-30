@@ -49,7 +49,7 @@ const About = () => {
               <TimelineDot variant="outlined" color="secondary" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color="secondary">Joined MITR Learning & Media, Qualified GATE CSE, Built a simple website for a charitable trust.</TimelineContent>
+            <TimelineContent color="secondary">Joined MITR Learning & Media, Qualified GATE CSE.</TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
