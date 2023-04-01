@@ -1,6 +1,10 @@
 import React from "react";
 import Timeline from '@mui/lab/Timeline';
 import {TimelineItem,TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent, timelineOppositeContentClasses} from '@mui/lab';
+import { teal } from '@mui/material/colors';
+
+const tealColor = teal[300];
+
 const About = () => {
 
   return (
@@ -31,14 +35,14 @@ const About = () => {
             },
           }}>
           <TimelineItem>
-            <TimelineOppositeContent color="primary">
+            <TimelineOppositeContent color={tealColor}>
               2023
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" color="primary" />
+              <TimelineDot variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color ="primary">GATE CSE AIR 4k</TimelineContent>
+            <TimelineContent color ={tealColor}>Freelancing + GATE CSE AIR 4k</TimelineContent>
           </TimelineItem>
 
           <TimelineItem>

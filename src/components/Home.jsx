@@ -12,7 +12,7 @@ const Home = () => {
                 <p className=" text-[25px] text-fuchsia-500  py-10 max-w-md">
                 <Typewriter
                     options={{
-                        strings: ['A Front-end Web Developer.', '3 times GATE CSE Qualfied with AIR 2152, AIR 4330 in 2022, 2023 respectively', 'Winner of Smart India Hackathon 2019.', 'A Curious Learner.'],
+                        strings: ['A Front-end Web Developer.', '3 times GATE CSE Qualfied with AIR 2152, AIR 4330 in 2022, 2023 respectively!', 'Winner of Smart India Hackathon 2019.', 'A Curious Learner.'],
                         autoStart: true,
                         loop: true,
                         delay : 50
