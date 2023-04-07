@@ -20,10 +20,10 @@ const Navbar = () => {
             id:4,
             linkText :"Projects"
         },
-        {
-            id:5,
-            linkText : "Contact"
-        }
+        // {
+        //     id:5,
+        //     linkText : "Contact"
+        // }
     ]
   return (
     <div className='flex justify-between items-center w-full h-20 text-white bg-black fixed px-4'>

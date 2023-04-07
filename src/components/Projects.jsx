@@ -16,7 +16,7 @@ const Projects = () => {
       id: 2,
       projectName : "Animal Farm",
       src: animalFarm,
-      demo : "",
+      demo : "https://myanimalfarm.netlify.app/",
       code : "https://github.com/sayyedfaixal/animalfarm"
     },
     {

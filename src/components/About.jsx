@@ -1,4 +1,3 @@
-import React from "react";
 import Timeline from '@mui/lab/Timeline';
 import {TimelineItem,TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent, timelineOppositeContentClasses} from '@mui/lab';
 import { teal } from '@mui/material/colors';
@@ -39,7 +38,11 @@ const About = () => {
               2023
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot variant="outlined" />
+              <TimelineDot variant="outlined"
+              sx={{
+                borderColor: '#4db6ac'
+              }}
+              />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent color ={tealColor}>Freelancing + GATE CSE AIR 4k</TimelineContent>
