@@ -25,6 +25,7 @@ const About = () => {
         <br />
         A <span className="text-pink-500">CSE</span> graduate from <span className="text-pink-500">M.H Saboo Siddik College of Engineering </span> - Mumbai University.
         <br />
+        Currently pursuing <span className="text-slate-400">M.Tech CSE </span>@ <span className="text-blue-500">IIT Jammu</span>
         </p>
         <br />
           <Timeline position="right"
@@ -45,7 +46,8 @@ const About = () => {
               />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color ={tealColor}>Freelancing + GATE CSE AIR 4k</TimelineContent>
+            <TimelineContent color ={tealColor}> Indian Institute of Technology Jammu "IIT Jammu" + GATE CSE AIR 4k</TimelineContent>
+
           </TimelineItem>
 
           <TimelineItem>
@@ -67,7 +69,7 @@ const About = () => {
               <TimelineDot variant="outlined" color="secondary" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color="secondary">Joined MITR Learning & Media, Qualified GATE CSE.</TimelineContent>
+            <TimelineContent color="secondary">Joined MITR Learning & Media +  Qualified GATE CSE.</TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
@@ -78,7 +80,14 @@ const About = () => {
               <TimelineDot variant="outlined" color="warning" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent color="#ED6C02">Won Smart India Hackathon 2019 <span className="text-blue-400 underline"><a href="https://twitter.com/iitroorkee/status/1102163586246311936"/>#team TechLegionz</span></TimelineContent>
+            <TimelineContent color="#ED6C02" >
+              Won Smart India Hackathon 2019 &nbsp;
+                <span className="text-blue-400 underline">
+                    <a href={"https://twitter.com/iitroorkee/status/1102163586246311936"}>
+                      #team TechLegionz
+                    </a>
+                </span>
+            </TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
