@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/csefaisal/static/css/main.22f0c4be.css",
-    "main.js": "/csefaisal/static/js/main.973256d2.js",
-    "static/media/heroImage.png": "/csefaisal/static/media/heroImage.2c1263fc244810c0d58a.png",
+    "main.css": "/csefaisal/static/css/main.1f49d765.css",
+    "main.js": "/csefaisal/static/js/main.8a587bca.js",
+    "static/media/hero-image.png": "/csefaisal/static/media/hero-image.41fdc4541042960e462e.png",
     "static/media/animalFarm.jpg": "/csefaisal/static/media/animalFarm.3bbffb52a0090c0a52a5.jpg",
     "static/media/python.png": "/csefaisal/static/media/python.82efb64f8698a267f8bf.png",
     "static/media/techNews.jpg": "/csefaisal/static/media/techNews.e6715722a703bb515554.jpg",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/csefaisal/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/csefaisal/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/csefaisal/index.html",
-    "main.22f0c4be.css.map": "/csefaisal/static/css/main.22f0c4be.css.map",
-    "main.973256d2.js.map": "/csefaisal/static/js/main.973256d2.js.map"
+    "main.1f49d765.css.map": "/csefaisal/static/css/main.1f49d765.css.map",
+    "main.8a587bca.js.map": "/csefaisal/static/js/main.8a587bca.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f0c4be.css",
-    "static/js/main.973256d2.js"
+    "static/css/main.1f49d765.css",
+    "static/js/main.8a587bca.js"
   ]
 }
